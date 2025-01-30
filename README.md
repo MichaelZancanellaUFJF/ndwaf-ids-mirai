@@ -16,7 +16,7 @@ O sistema visa fornecer um IDS eficiente, com resposta rápida na Fog e treiname
 ## Dataset Utilizado
 O projeto utiliza o dataset **CICIoT2023**, contendo:
 - Tráfego benigno e tráfego malicioso gerado pela botnet Mirai.
-- Um total de **40 milhões de linhas**, processadas em chunks para otimização do treinamento.
+- Um total de **40 milhões de linhas**, processadas em chunks para otimização do treinamento, filtrando apenas as linhas de interesse e foco do trabalho varirações de Mirai e BenignTraffic;
 - Seleção de **14 features relevantes** para melhorar a precisão dos modelos.
 
 ## Modelos Utilizados
